@@ -9,7 +9,7 @@ class LinkedList:
         self.head=None
         self.tail=None
 
-    def getAt(self,pos):
+    def getAt(self,pos): #노드의 위치
         if(pos<=0 or pos>self.NodeCount):
             return None
         i=1
