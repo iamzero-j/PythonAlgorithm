@@ -1,3 +1,5 @@
+#출처 : 프로그래머스 - 연결리스트
+
 def popAt(self, pos): # 삭제 노드
     if pos < 1 or pos > self.nodeCount: #영역 밖
         raise IndexError
