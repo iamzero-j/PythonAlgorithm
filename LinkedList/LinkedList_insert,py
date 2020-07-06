@@ -1,0 +1,22 @@
+#LinkedList 의 삽입노드
+#LinkedList_Node.py의 class LinkedList 밑에 넣어주면 됨.
+
+def insertAt(self,pos,newNode): # 삽입 노드
+    if(pos<1 or pos>self.NodeCount+1): 
+        return False
+    if(pos==1):
+        newNode.next=self.head
+        self.head=newNode
+    else:
+        if(pos==self.NodeCount+1):
+             prev=self.tail
+        else:
+            prev=self.getAt(pos-1)
+        newNode.next=prev.next
+        prev.next=newNode
+
+    if(pos==self.NodeCount+1):
+        self.tail=newNode
+
+    self.NodeCount+=1
+    return True
