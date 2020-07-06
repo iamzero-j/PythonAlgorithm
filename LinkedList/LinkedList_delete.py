@@ -1,4 +1,6 @@
 #출처 : 프로그래머스 - 연결리스트
+#LinkedList 의 삭제 노드
+#LinkedList_Node.py의 class LinkedList 밑에 넣어주면 됨.
 
 def popAt(self, pos): # 삭제 노드
     if pos < 1 or pos > self.nodeCount: #영역 밖
