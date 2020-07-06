@@ -1,3 +1,5 @@
+#출처 : 프로그래머스 - 연결리스트
+
 class Node:
     def __init__(self,item):
         self.data=item
