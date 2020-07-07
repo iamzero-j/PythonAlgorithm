@@ -11,9 +11,8 @@
 # 이런식으로 나타나게 하기
 
 N=int(input())
-for i in range(N):
-    print("*"*i)
-for i in range(2*N-N):
-    print("*"*(N-i))
 
-# 파이참에서는 잘 돌아가는데 백준 제출하면 출력형식이 잘못되었습니다 나옴 
+for i in range(1,N):
+    print("*"*i)
+for i in range(0,2*N-i):
+    print("*"*(N-i))
