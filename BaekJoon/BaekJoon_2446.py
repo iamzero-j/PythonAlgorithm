@@ -1,6 +1,7 @@
-# 출처 : 백준 -> https://www.acmicpc.net/problem/2446
+# 출처 : 백준 -> 2446번 : https://www.acmicpc.net/problem/2446
 
 #별찍기 - 모래시계 모양 
+
 N=int(input())
 
 for i in range(0,N): 
