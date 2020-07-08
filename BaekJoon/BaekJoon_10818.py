@@ -6,3 +6,5 @@ N=int(input())
 x=list(map(int, input().split()))
 print(min(x),end=" ")
 print(max(x))
+
+#이렇게 풀면 굳이 N이 필요 없음.. --> min(), max() 대신 직접 for문으로 순차정렬하기 
