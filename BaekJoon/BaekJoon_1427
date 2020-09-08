@@ -1,0 +1,9 @@
+
+import sys
+
+n=list(map(str,sys.stdin.readline()))
+n.remove('\n')
+
+n.sort(reverse=True)
+for i in range(len(n)):
+    print(n[i],end=' ')
